@@ -16,8 +16,8 @@ main()
 	{
 		temp=0;
 		for(j=1;j<=i;j++)
-			temp+=j;
-		sum+=temp;
+			temp+=j; //temp用来临时保存当前项an
+		sum+=temp; //sun是sn
 	}
 	printf("The sum of the sequence(%d) is %d\n",n,sum);
 	getchar();
