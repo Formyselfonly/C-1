@@ -14,5 +14,5 @@ main()
 	printf("%d\n",i--);
 	printf("%d\n",-i++);
 	printf("%d\n",-i--);
-	getchar();
+	getchar();//test
 }
